@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+          <a href="#" class="nav-logo">GameGear</a>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="build.html" class="nav-link">Build</a>
+            </li>
+            <li class="nav-item">
+              <a href="../../index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item loginbuttonnav">
+              <button
+                type="button"
+                class="nav-link nav-link-btn"
+              ><a href="login.html" id="navlog">Login</a>
+              </button>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </header>
+
+      <section class="contact-us">
+        <form action="" class="contact-form">
+          <h1 id="contact-title">Contact Us</h1>
+          <label for="name">Full Name</label>
+          <input type="text" id="name" required>
+          <br>
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+          <br>
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="" required></textarea>
+          <button type="submit" onclick="contactSubmit()">Submit</button>
+        </form>
+      </section>
+      
+
+
+
+
+    
+  <section class="footer">
+    <nav class="footer">
+      <input type="checkbox" id="footer-check">
+      <div class="footer-header">
+        <div class="footer-title">
+          GameGear
+        </div>
+      </div>
+      <div class="footer-btn">
+        <label for="footer-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      
+      <ul class="footer-list">
+        <li><a href="#">©Ameya Taneja</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms and Conditions</a></li>
+      </ul>
+    </nav>
+  </section>
+</body>
+<script src="js/index.js"></script>
+</html>
